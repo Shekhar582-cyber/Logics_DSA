@@ -1,0 +1,25 @@
+2025-03-05 11:00:15.069 [CORE] WinGet, version [1.10.340], activity [{B46EDA85-2F2B-4D07-B2E3-1D327B05E316}]
+2025-03-05 11:00:15.069 [CORE] OS: Windows.Desktop v10.0.26100.3194
+2025-03-05 11:00:15.069 [CORE] Command line Args: "C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.25.340.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe" -Embedding
+2025-03-05 11:00:15.069 [CORE] Package: Microsoft.DesktopAppInstaller v1.25.340.0
+2025-03-05 11:00:15.069 [CORE] IsCOMCall:1; Caller: C:\Windows\explorer.exe
+2025-03-05 11:00:15.082 [CORE] Default proxy is not set
+2025-03-05 11:00:15.083 [REPO] REST HTTP Client helper does not use proxy
+2025-03-05 11:00:15.096 [REPO] REST HTTP Client helper does not use proxy
+2025-03-05 11:00:15.104 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2025-03-05 11:00:15.435 [REPO] Response status: 200
+2025-03-05 11:00:15.435 [REPO] Authentication node not found. Assuming authentication type none.
+2025-03-05 11:00:15.439 [REPO] Creating new SQLite Index with version [Latest] at ':memory:'
+2025-03-05 11:00:15.440 [SQL ] Opening SQLite connection #1: ':memory:' [6, 0]
+2025-03-05 11:00:15.470 [REPO] Reading MSI UpgradeCodes
+2025-03-05 11:00:15.523 [REPO] Reading MSI UpgradeCodes
+2025-03-05 11:00:16.102 [SQL ] Opening SQLite connection #2: ':memory:' [6, 0]
+2025-03-05 11:00:16.133 [REPO] Opening database for ReadWrite at 'C:\Users\shekh\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2025-03-05 11:00:16.134 [SQL ] Opening SQLite connection #3: 'C:\Users\shekh\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db' [2, 0]
+2025-03-05 11:00:16.135 [REPO] Opened SQLite Index with version [1.7], last write [2025-01-23 22:18:03.000]
+2025-03-05 11:00:16.138 [REPO] Sending http POST request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/manifestSearch
+2025-03-05 11:00:16.320 [REPO] Response status: 200
+2025-03-05 11:00:16.341 [SQL ] Opening SQLite connection #4: ':memory:' [6, 0]
+2025-03-05 11:00:16.351 [REPO] Opening database for ReadWrite at 'C:\Users\shekh\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\Microsoft.Winget.Source_8wekyb3d8bbwe\installed.db'
+2025-03-05 11:00:16.351 [SQL ] Opening SQLite connection #5: 'C:\Users\shekh\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\Microsoft.Winget.Source_8wekyb3d8bbwe\installed.db' [2, 0]
+2025-03-05 11:00:16.352 [REPO] Opened SQLite Index with version [1.7], last write [2024-10-24 16:42:57.000]
